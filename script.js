@@ -10,4 +10,9 @@ function akanName() {
     console.log("birthday "+birthDay);
     var dateStr = birthDay.toDateString();
     let birthDate = birthDay.getDay();
+
+    if (gender === "Male") {
+        let name = akanMaleName[birthDate];
+        let test = document.getElementById("test");
+        test.innerHTML='You were born on ' + dateStr + 'Your Akan name is ' + name;
 }

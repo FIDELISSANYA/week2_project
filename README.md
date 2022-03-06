@@ -1,4 +1,4 @@
-# week@_project
+# week2_project
  
  ##### By Fidelis Sanya
  
@@ -34,6 +34,8 @@
 
  ## Reference
  * Materialize CSS Javascript
+ * W3schools
+ * MDN
  
  [Go Back to the top](#portfolio)
  

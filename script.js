@@ -31,3 +31,7 @@ function akanName() {
         alert('Please input year of birth');
     }
 }
+function ghanianName() {
+    console.log("got year");
+    akanName()
+}

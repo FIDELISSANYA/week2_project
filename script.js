@@ -21,4 +21,13 @@ function akanName() {
         let test = document.getElementById('test');
         test.innerHTML= 'You were born on ' + dateStr + 'Your Akan name is ' + name;
     }
+    if (dateOfBirth === "") {
+        alert('Please input date of birth');
+    }
+    if (monthOfBirth === "") {
+        alert('Please input month of birth');
+    }
+    if (yearOfBirth === "") {
+        alert('Please input year of birth');
+    }
 }

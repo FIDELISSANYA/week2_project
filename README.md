@@ -12,7 +12,7 @@
  + [Authors Info](#author-Info)
  
  ## Description
- <p>This is  a website that shows my portfolio/resume.It contains all my background information,some sample projects that I have worked on and the experience gained.</p>
+ <p>This is  a website that allows the user to enter his or birthday credentials and outputs the results depending on thei gender Akan names.</p>
  
  ## Installation
  
@@ -29,7 +29,9 @@
  * HTNL - which was used to build the structure of the pages.
  
  * CSS - which was used to style the pages incuding the left aside navigation bar
- 
+
+ * Javascript - contains the scripts necessary to run the ip.
+
  ## Reference
  * Materialize CSS Javascript
  

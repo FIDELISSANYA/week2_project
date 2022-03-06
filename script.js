@@ -15,4 +15,10 @@ function akanName() {
         let name = akanMaleName[birthDate];
         let test = document.getElementById("test");
         test.innerHTML='You were born on ' + dateStr + 'Your Akan name is ' + name;
+    }
+    if (gender === "Female") {
+        let name = akanFemaleName[birthDate];
+        let test = document.getElementById('test');
+        test.innerHTML= 'You were born on ' + dateStr + 'Your Akan name is ' + name;
+    }
 }

@@ -6,7 +6,7 @@ function akanName() {
     var yearOfBirth = document.getElementById("year").value;
     var gender = document.getElementById("gender").value;
 
-    let birthDay = new Date(parseInt(monthOfBirth) , parseInt(dateOfBirth), 0, 0, 0, 0);
+    let birthDay = new Date(parseInt(yearOfBirth),parseInt(monthOfBirth) , parseInt(dateOfBirth), 0, 0, 0, 0);
     console.log("birthday "+birthDay);
     var dateStr = birthDay.toDateString();
     let birthDate = birthDay.getDay();
@@ -19,7 +19,7 @@ function akanName() {
     if (gender === "Female") {
         let name = akanFemaleName[birthDate];
         let test = document.getElementById('test');
-        test.innerHTML= 'You were born on ' + dateStr + 'Your Akan name is ' + name;
+        test.innerHTML = 'You were born on ' + dateStr + 'Your Akan name is ' + name;
     }
     if (dateOfBirth === "") {
         alert('Please input date of birth');
@@ -30,11 +30,18 @@ function akanName() {
     if (yearOfBirth === "") {
         alert('Please input year of birth');
     }
+
 }
+
+
 function ghanianName() {
     console.log("got year");
     akanName() 
+    // let submitForm = document.getElementById('submit').value;
+    // submitForm.submit();
 }
+
+
 function detailsReset() {
     let formReset = document.getElementById('reset').value;
     formReset.reset();
